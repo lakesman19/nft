@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#all {
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-nfts{
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 5px;
+}
+.images img {
+    width: 250px;
+    border-radius: 10px;
+    
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.horizontal_line{
+    border: 0.01px solid grey;
+    font-weight: 300;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+.svg{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.et{
+    color:hsl(178, 100%, 50%) ;
+    font-weight: 600;
+}
+.days{
+    color: hsl(215, 51%, 70%);
+    font-weight: 600;
+}
+.owner img{
+    width: 30px;
+}
+.owner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 55px;
+    margin-top: 10px;
+}
+.owner p{
+    margin-left: 10px;
+    text-transform: capitalize;
+    font-weight: 200;
+    font-size: 15px;
+}
+.owner p span{
+    color: white;
+    margin-left: 2px;
+}
